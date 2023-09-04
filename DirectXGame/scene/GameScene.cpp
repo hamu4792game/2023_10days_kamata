@@ -29,6 +29,7 @@ void GameScene::Draw() {
 	/// </summary>
 
 	// スプライト描画後処理
+	//Sprite::PostDraw();
 	Sprite::PostDraw();
 	// 深度バッファクリア
 	dxCommon_->ClearDepthBuffer();
