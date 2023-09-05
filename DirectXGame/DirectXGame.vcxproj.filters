@@ -52,6 +52,21 @@
     <Filter Include="ソース ファイル\2d">
       <UniqueIdentifier>{814a0f6d-f847-4c45-856d-4688fa4c9e6c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Score">
+      <UniqueIdentifier>{b5b7e394-aa1b-4bd1-a781-d46921f3846e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pla">
+      <UniqueIdentifier>{92ac72a7-32d2-4514-9afb-4928a64eb24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Easing">
+      <UniqueIdentifier>{6c381207-455f-4d32-9b72-054cb7e347b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HitTest">
+      <UniqueIdentifier>{ce48b827-77f9-489d-8d16-105aaa6ff9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ene">
+      <UniqueIdentifier>{bfc9fa9c-abac-4f21-bdee-dcaf63fabfbe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -68,6 +83,21 @@
     </ClCompile>
     <ClCompile Include="2d\ImGuiManager.cpp">
       <Filter>ソース ファイル\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Score\Score.cpp">
+      <Filter>Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Pla\Pla.cpp">
+      <Filter>Pla</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing\Ease.cpp">
+      <Filter>Easing</Filter>
+    </ClCompile>
+    <ClCompile Include="HitTest\HitTest.cpp">
+      <Filter>HitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Ene\Ene.cpp">
+      <Filter>Ene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +187,21 @@
     </ClInclude>
     <ClInclude Include="base\StringUtility.h">
       <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Score\Score.h">
+      <Filter>Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Pla\Pla.h">
+      <Filter>Pla</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing\Ease.h">
+      <Filter>Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="HitTest\HitTest.h">
+      <Filter>HitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Ene\Ene.h">
+      <Filter>Ene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -109,8 +109,13 @@
     <ClCompile Include="2d\ImGuiManager.cpp" />
     <ClCompile Include="base\DirectXCommon.cpp" />
     <ClCompile Include="base\WinApp.cpp" />
+    <ClCompile Include="Easing\Ease.cpp" />
+    <ClCompile Include="Ene\Ene.cpp" />
+    <ClCompile Include="HitTest\HitTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pla\Pla.cpp" />
     <ClCompile Include="scene\GameScene.cpp" />
+    <ClCompile Include="Score\Score.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2d\ImGuiManager.h" />
@@ -136,12 +141,17 @@
     <ClInclude Include="base\StringUtility.h" />
     <ClInclude Include="base\TextureManager.h" />
     <ClInclude Include="base\WinApp.h" />
+    <ClInclude Include="Easing\Ease.h" />
+    <ClInclude Include="Ene\Ene.h" />
+    <ClInclude Include="HitTest\HitTest.h" />
     <ClInclude Include="input\Input.h" />
     <ClInclude Include="math\Matrix4x4.h" />
     <ClInclude Include="math\Vector2.h" />
     <ClInclude Include="math\Vector3.h" />
     <ClInclude Include="math\Vector4.h" />
+    <ClInclude Include="Pla\Pla.h" />
     <ClInclude Include="scene\GameScene.h" />
+    <ClInclude Include="Score\Score.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Resources\shaders\TerrainPS.hlsl">
